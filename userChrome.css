@@ -1,0 +1,9 @@
+/* Hide the plugin notification bar. */
+notification[value="plugin-hidden"] {
+  display: none !important;
+}
+
+/* Hide the tab close button */
+.tab-close-button {
+	display: none !important;
+}
