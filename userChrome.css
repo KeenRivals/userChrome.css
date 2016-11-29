@@ -31,3 +31,14 @@ notification[value="plugin-hidden"] {
 #BMB_subscribeToPageMenupopup,
 #BMB_bookmarksToolbar
 { display: none !important; }
+
+/* Hide Bookmark Toolbar text (show icons only) */
+#personal-bookmarks .bookmark-item > .toolbarbutton-text { 
+	display:none !important;
+} 
+
+/* Hide margins at end of each bookmark toolbar icon, and set to 2px */
+toolbarbutton.bookmark-item .toolbarbutton-icon {
+	margin-inline-end: 0 !important;
+	margin:0 2px !important;
+}
