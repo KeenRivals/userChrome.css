@@ -26,6 +26,10 @@ Remove unneccessary bookmarks menu items:
 * Subscribe to page
 * Bookmarks toolbar
 
+## Hide Bookmark Toolbar Text
+
+Show only icons on the bookmark toolbar.
+
 # Installation
 
 Create a ``chrome`` folder in your [profile folder](http://kb.mozillazine.org/Profile_folder) and copy ``userChrome.css`` into it. For more information, see [userChrome.css on the MozillaZine Knowledge Base](http://kb.mozillazine.org/index.php?title=UserChrome.css&printable=yes).
